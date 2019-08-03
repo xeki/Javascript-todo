@@ -1,0 +1,98 @@
+.container{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.counters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 450px;
+  margin: 10px 0 20px 5px;
+}
+.counter-blocks {
+  flex: 1;
+  flex-basis: 200px;
+  text-align: center;
+}
+.controls{
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 0 0 20px 5px;
+}
+.input-controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+}
+.control-block{
+  flex: 1;
+  text-align: center;
+}
+
+li {
+  width: 450px;
+  list-style-type: none;
+  margin: 5px;
+  background: gray;
+  border-radius: 5px;
+  height: 35px;
+}
+.list-checkbox{
+  flex: 1;
+  text-align: center;
+}
+.list-taskname{
+  flex: 2;
+  text-align: center;
+}
+.list-button{
+  flex: 1;
+  text-align: center;
+}
+
+.create-button, .create-button:hover {
+  background: navy;
+  border: 2px solid navy;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+}
+.create-button:focus {
+  outline: 4px dotted #e73;
+}
+.task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: default;
+  height: 35px;
+}
+.button-delete {
+  display: flex;
+  color: white;
+  font-weight: 400;
+  background: red;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+input[type='text']{
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+input[type='text']:focus, input[type='text']:active{
+  outline: 1px solid blue;
+}
+* {
+  font-family: comic sans ms;
+  font-size: 16px;
+}
+.center{
+  text-align: center;
+}
